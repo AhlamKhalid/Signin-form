@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in form</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">Sign in</h1>
+      <div class="signin-wrapper">
+        <form class="form">
+          <label for="email" class="label">Email</label>
+          <input type="email" id="email" class="input" />
+          <label for="password" class="label">Password</label>
+          <input type="password" id="password" class="input" />
+          <a href="#" class="password-reset">Forgot your password?</a>
+          <button type="submit" class="submit-btn">
+            Sign in
+            <span
+              class="iconify arrow-right"
+              data-icon="akar-icons:arrow-right"
+              style="color: #fff"
+            ></span>
+          </button>
+        </form>
+        <p class="signup">
+          Don’t have an account?
+          <a href="#" class="signup-link">Sign up here</a>
+        </p>
+        <div class="divider">
+          <span class="divider-txt">Or</span>
+        </div>
+        <button class="provider-btn facebook-btn">
+          <span class="circle">
+            <span
+              class="iconify"
+              data-icon="bx:bxl-facebook"
+              style="color: #4267b2; width: 22px; height: 22px"
+            ></span>
+          </span>
+          Sign in with facebook
+        </button>
+        <button class="provider-btn twitter-btn">
+          <span class="circle">
+            <span
+              class="iconify"
+              data-icon="akar-icons:twitter-fill"
+              style="color: #60b5f0"
+            ></span>
+          </span>
+          Sign in with twitter
+        </button>
+        <button class="provider-btn google-btn">
+          <span class="circle">
+            <span class="iconify" data-icon="logos:google-icon"></span>
+          </span>
+          Sign in with google
+        </button>
+      </div>
+    </div>
+    <!-- iconfiy plugin of figma -->
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+  </body>
+</html>

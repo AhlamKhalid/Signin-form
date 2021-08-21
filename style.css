@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f0f0f0;
+  padding: 64px 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+button {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 18px;
+  color: #374149;
+}
+
+.signin-wrapper {
+  background-color: #fff;
+  margin-top: 32px;
+  padding: 48px;
+  border-radius: 20px;
+  /* x y blur color */
+  box-shadow: 13px 13px 24px rgba(0, 0, 0, 0.1);
+}
+
+.label,
+.input {
+  display: block;
+}
+
+.label {
+  font-weight: 700;
+  font-size: 14px;
+  color: #374149;
+}
+
+.input {
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  border-radius: 3px;
+  padding: 9px 20px;
+  height: 49px;
+  border: 1px solid #cfcfcf;
+  font-size: 16px;
+  color: #374149;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #374149;
+}
+
+.password-reset {
+  font-size: 14px;
+  color: #758294;
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  margin-top: 16px;
+  background-color: #be3868;
+  border-radius: 3px;
+  padding: 13px 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.arrow-right {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-left: 10px;
+  transition: margin-left 0.3s;
+}
+
+.submit-btn:hover .arrow-right {
+  margin-left: 20px;
+}
+
+.signup {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 14px;
+  color: #758294;
+}
+
+.signup-link {
+  color: #be3868;
+}
+
+.divider {
+  position: relative;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.divider-txt {
+  font-size: 14px;
+  color: #b9bbc7;
+  /* bring to front */
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  padding: 0 16px;
+}
+
+.divider:after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #e4e4e4;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.provider-btn {
+  width: 100%;
+  text-align: left;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 3px;
+  padding: 10px 0 10px 20px;
+  margin-top: 16px;
+}
+
+/* first button of providers */
+.provider-btn:first-of-type {
+  margin-top: 0;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #fff;
+  display: inline-flex;
+  /* center icons */
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  margin-right: 22px;
+}
+
+.facebook-btn {
+  background-color: #4267b2;
+}
+
+.twitter-btn {
+  background-color: #60b5f0;
+}
+
+.google-btn {
+  background-color: #34a853;
+}
